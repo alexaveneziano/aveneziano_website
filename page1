@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta charset="utf-8">
+  <title> Alexa Veneziano </title>
+  <meta name="description" content="Put your description here. What is this site?">
+  <meta name="author" content="Alexa Veneziano"> <!-- coding credit -->
+
+  <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Fonts
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link href='https://fonts.googleapis.com/css?family=Roboto:300,400' rel='stylesheet' type='text/css'>
+
+  <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="stylesheet" href="normalize.css"> <!-- fix any weird formatting -->
+  <link rel="stylesheet" href="css.css"> <!-- your styles -->
+
+  <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  <link rel="icon" type="image/png" href="assets/16.ico">
+
+    <!-- Javascript
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+  
+</head>
+
+
+
+
+    <nav>
+
+        <ul>
+          <li><a class="a1" href="http://comingsoon.help/"><img src=images/sphere8.png style="width:65px;height:65px;" ></a></li>
+          <li><a class="b1" href="http://proximity.design/"><img src=images/sphere7.png style="width:65px;height:65px;"></a></li>
+          <li><a class="c1" href="http://milk-and-water.com/"><img src=images/sphere6.png style="width:65px;height:65px;"></a></li>
+          <li><a class="name" href="http://milk-and-water.com/"><img src=images/longerdash.png ><img src= ></a></li>
+        </ul>
+
+    </nav>
+<style>
+div.scroll {
+    background-color: #ffffff;
+    outline-style: solid;
+    outline-color: #000000;
+    outline-width: .25px;
+    width: 130vh;
+    height: 84vh;
+    overflow: scroll;
+    position:absolute;
+    left:45vh;
+    top:10%;
+}
+</style>
+  
+
+    <section> <!-- use of sections optional - google this one, I cant explain it well -->
+<body>
+<div class="scroll">
+<img src=images/remnants_1.png style="width:130vh;">
+<img src=images/remnants_2.png style="width:130vh;">
+<img src=images/remnants_3.png style="width:130vh;">
+<img src=images/remnants_4.png style="width:130vh;">
+<img src=images/remnants_5.png style="width:130vh;">
+<img src=images/remnants_6.png style="width:130vh;">
+
+
+</div>
+
+</body>
+    <!-- layer divs in order of top to bottom. First = top, last = bottom. In order to style an image correctly, you typically need to put it in a div. Exceptions can be made -->
+      
+    </section>
+
+      
+
+         
+
+<!-- suggest adding google analytics, we'll get to this at the end. 
+  To get started: https://analytics.google.com/analytics/web/#home/a49225036w80916559p83741359/ 
+  -->
+
+</html>

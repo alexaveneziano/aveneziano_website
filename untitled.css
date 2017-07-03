@@ -1,0 +1,77 @@
+/* can use EITHER code on html page OR include this script. Both are not necessary. */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800');
+/* find the code here https://fonts.google.com/ */
+
+/* NOTE
+html is set to 62.5% so that all the REM measurements are based on 10px sizing. 1.5rem = 15px.
+Suggested unites: percents or vw/vh. REM, EM, and PX generally too complicated for responsive design.; */
+
+html, body {
+  font-size: 85%; 
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 800;
+  font-family: 'Roboto', sans-serif;
+   font-style: italic;
+   letter-spacing: .05rem;
+}  
+/* fill browser */
+  width: 100%;
+  height: 100%; 
+}
+
+nav {
+    
+    z-index:9999;
+  
+    list-style:none; /*remove bullet points */
+    float:left;
+  
+}
+nav ul {    
+    font-size: 100%; /*2.1rem*/ 
+    line-height: 2;  
+    letter-spacing: .05rem;
+    list-style: none;
+    float:left;
+    top:10px;
+    left:5%;
+    position:absolute; 
+}
+
+/* "li" styles a link. writing "nav a" defines the specific link group, as definining only "a" will change the default links for the whole site. */
+
+a {
+  text-decoration: none; /* removes default underline */
+  color: #000000;
+  list-style:none; 
+}
+
+a:hover {
+  /* hover style */
+}
+a:active {
+  /* what it looks like when being clicked */
+}
+a:visited { 
+  /* what it looks like when visited */
+}
+
+content 
+
+/* each class begins with a period. classes can be reused infinitely. */
+.name-div-class {
+  float: left; /*should it automatically go to the left or right? */
+  text-align: left;
+   /*use this to move it around the page */
+}
+  /* fill browser */
+  width: 100%;
+  height: 100%; 
+}
+
+.six {
+  float:left;
+  top:20%;
+  left:80%;
+  position:absolute; }

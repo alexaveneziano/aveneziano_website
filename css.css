@@ -1,0 +1,341 @@
+/* can use EITHER code on html page OR include this script. Both are not necessary. */
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600,700,800');
+/* find the code here https://fonts.google.com/ */
+
+/* NOTE
+html is set to 62.5% so that all the REM measurements are based on 10px sizing. 1.5rem = 15px.
+Suggested unites: percents or vw/vh. REM, EM, and PX generally too complicated for responsive design.; */
+
+html, body {
+  font-size: 90%; 
+  background-color: #ffffff;
+  color: #000000;
+  font-weight: 500; 
+  font-family: serif;
+   
+   letter-spacing: .05rem;
+}
+
+  /* fill browser */
+  width: 100%;
+  height: 100%; 
+}
+
+/* this sideways nav is a little imperfect, but this is what i used.*/
+nav {
+    
+  
+  
+    list-style:none; /*remove bullet points */
+    float:left;
+  
+}
+
+nav ul {   list-style: none; 
+   /* font-size: 100%; /*2.1rem*/ 
+    /* line-height: 5;  
+    letter-spacing: .05rem;
+    list-style: none;
+    float:left;
+    top:15.7%;
+    left:17%;
+
+    position:absolute;*/
+}
+
+/* "li" styles a link. writing "nav a" defines the specific link group, as definining only "a" will change the default links for the whole site. */
+
+
+
+
+a {
+	text-decoration: none; /* removes default underline */
+  color: #000000;
+}
+
+a:hover {
+	/* hover style */
+}
+a:active {
+	/* what it looks like when being clicked */
+}
+a:visited { 
+	/* what it looks like when visited */
+}
+
+/*content 
+
+/* each class begins with a period. classes can be reused infinitely. */
+/*.name-div-class {
+	float: left; /*should it automatically go to the left or right? */
+/*	text-align: left;
+	 /*use this to move it around the page */
+
+
+.name {
+  float:left;
+  top:20%;
+  left:0%;
+  text-align: right;
+  position:absolute; }
+.name:hover {
+  font-color: #0044ff;}
+.name-hidden {
+  display:none;
+   }
+.name:hover .name-hidden {
+  display:block; position:absolute; text-align: right; left:4px; z-index:9999 font-weight: 500; 
+  font-family: 'Roboto';}
+/* each ID begins with a #. Can only be used once per page */
+#name-id {
+}
+
+.one {
+  float:left;
+  top:10%;
+  left:12%;
+  position:absolute; }
+.one:hover {
+  font-color: #0044ff; z-index:1; }
+.one-hidden {
+  display:none; }
+.one:hover .one-hidden {
+  display:block;  float:left;
+  top:20%;
+  left:40%;
+  position:absolute;  z-index:1; }
+/* each ID begins with a #. Can only be used once per page */
+#name-id {
+}
+
+
+.two {
+  float:left;
+  top:30%;
+  left:55%;
+  position:absolute; z-index:999; }
+.two:hover {
+  font-color: #0044ff; }
+.two-hidden {
+  display:none;
+   }
+.two:hover .two-hidden {
+   display:block;  float:left;
+  top:30%;
+  left:30%;
+    position:absolute; z-index:9999;
+  display:block;font-weight: 500; 
+  font-family: 'Roboto';}
+
+
+.three {
+  float:left;
+  top:40%;
+  left:50%;
+  position:absolute; }
+.three:hover {
+  font-color: #0044ff; }
+.three-hidden {
+  display:none; }
+.three:hover .three-hidden {
+   display:block;  float:left; position:absolute;
+   top:40%;
+  left:30%;  font-weight: 500; 
+  font-family: 'Roboto';}
+
+
+.four {
+  float:left;
+  top: 50%;
+  left:5%;
+  position:absolute; }
+.four:hover {
+  font-color: #0044ff; }
+.four-hidden {
+  display:none; }
+.four:hover .four-hidden {
+  display:block;  float:left; position:absolute;
+  top:50%;
+  left:30%; font-weight: 500; 
+  font-family: 'Roboto'; }
+
+
+.five {
+  float:left;
+  top:60%;
+  left:17%;
+  position:absolute; z-index:999; }
+.five:hover {
+  font-color: #0044ff; }
+.five-hidden {
+  display:none; }
+.five:hover .five-hidden {
+  display:block;  float:left; position:absolute;
+   top:60%;
+  left:30%; z-index:9999 font-weight:500; 
+  font-family: 'Roboto';}
+
+.six {
+  float:left;
+  top:70%;
+  left:60%;
+  position:absolute; }
+.six:hover {
+  font-color: #0044ff; }
+.six-hidden {
+  display:none; }
+.six:hover .six-hidden {
+  display:block;  float:left; position:absolute;
+   top:70%;
+  left:30%; z-index:9999;font-weight: 500; 
+  font-family: 'Roboto';}
+
+.seven {
+  float:left;
+  top:80%;
+  left:69%;
+  position:absolute; }
+.seven:hover {
+  font-color: #0044ff; }
+.seven-hidden {
+  display:none; }
+.seven:hover .seven-hidden {
+  display:block;  float:left; position:absolute;
+   top:80%;
+  left:90%; z-index:9999;font-weight: 500; 
+  font-family: 'Roboto';}
+
+  .eight {
+  float:left;
+  top:80%;
+  left:10%;
+  position:absolute; }
+.eight:hover {
+  font-color: #0044ff; }
+.eight-hidden {
+  display:none; }
+.eight:hover .eight-hidden {
+  display:block;  float:left; position:absolute;
+   top:80%;
+  left:30%; z-index:9999;font-weight: 500; 
+  font-family: 'Roboto';}
+
+  .nine {
+  float:left;
+  top:80%;
+  left:30%;
+  position:absolute; }
+.nine:hover {
+  font-color: #0044ff; }
+.nine-hidden {
+  display:none; }
+.nine:hover .nine-hidden {
+  display:block;  float:left; position:absolute;
+   top:40%;
+  left:30%; z-index:9999;font-weight: 500; 
+  font-family: 'Roboto';}
+
+  .ten{
+  float:left;
+  top:80%;
+  left:90%;
+  position:absolute; }
+.ten:hover {
+  font-color: #0044ff; }
+.ten-hidden {
+  display:none; }
+.ten:hover .ten-hidden {
+  display:block;  float:left; position:absolute;
+   top:40%;
+  left:30%; z-index:9999;font-weight: 500; 
+  font-family: 'Roboto';}
+
+  .ed {
+  float:left;
+  top:100px;
+  left:30%;
+  position:absolute; z-index:9999}
+
+
+
+.a {float:left;
+  top:20%;
+  left:50%;
+  text-align: left;
+  position:absolute;
+  
+
+}
+.a:hover {
+  font-color: #0044ff; }
+.a-hidden {
+  display:none; }
+.a:hover .a-hidden {
+  display:block; z-index:9999;filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg); }
+
+.b {float:left;
+  top:30%;
+  left:9%;
+  text-align: left;
+  position:absolute;
+
+}
+.c {float:left;
+  top:40%;
+  left:80%;
+  text-align: left;
+  position:absolute;
+
+}
+.d {float:left;
+  top:50%;
+  left:40%;
+  text-align: left;
+  position:absolute;
+
+}
+.e {float:left;
+  top:60%;
+  left:24%;
+  text-align: left;
+  position:absolute;
+
+}
+.f {float:left;
+  top:70%;
+  left:30%;
+  text-align: left;
+  position:absolute;
+
+}
+
+.a1 {float:left;
+  top:30%;
+  left:9%;
+  text-align: left;
+  position:absolute;
+
+}
+
+.b1 {float:left;
+  top:40%;
+  left:12%;
+  text-align: left;
+  position:absolute;
+
+}
+.c1 {float:left;
+  top:50%;
+  left:7%;
+  text-align: left;
+  position:absolute;
+
+}
+
+/* each ID begins with a #. Can only be used once per page */
+#name-id {
+}
+/* each ID begins with a #. Can only be used once per page */
+#name-id {
+}
