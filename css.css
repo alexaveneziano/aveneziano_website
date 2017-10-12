@@ -55,6 +55,7 @@ a {
 
 a:hover {
 	/* hover style */
+  color:blue;
 }
 a:active {
 	/* what it looks like when being clicked */
@@ -266,13 +267,13 @@ a:visited {
   
 
 }
-.a:hover {
+/*.a:hover {
   font-color: #0044ff; }
 .a-hidden {
   display:none; }
 .a:hover .a-hidden {
   display:block; z-index:9999;filter: hue-rotate(180deg);
--webkit-filter: hue-rotate(180deg); }
+-webkit-filter: hue-rotate(180deg); }*/
 
 .b {float:left;
   top:30%;
@@ -338,4 +339,21 @@ a:visited {
 }
 /* each ID begins with a #. Can only be used once per page */
 #name-id {
+}
+
+.name-hidden p {
+  padding: 2%;
+  margin: 0;
+}
+
+.sphere {
+  filter: grayscale(1);
+    -webkit-filter: grayscale(1);    
+}
+.sphere:hover {
+  filter: grayscale(0);
+    -webkit-filter: grayscale(0);    
+}
+.bluehover a:hover {
+  color:blue; /* #0000ff */
 }
