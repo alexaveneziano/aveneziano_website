@@ -334,6 +334,19 @@ a:visited {
 
 }
 
+#some-element {
+  display: none;
+    text-decoration: none; /* removes default underline */
+  color: #0000ff;
+  position:absolute;
+   font-weight: 500; 
+  font-family: 'Roboto';}
+
+
+#some-div:hover #some-element {
+  display: block;
+}
+
 /* each ID begins with a #. Can only be used once per page */
 #name-id {
 }
